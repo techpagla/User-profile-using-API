@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        .commentsDiv{
+            background-color: azure;
+            color: black;
+            padding: 10px;
+            padding-left:20px;
+            /* border: 1px solid black; */
+            
+        }
+        .main-box {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  background-color: white;
+  height: 120px;
+  width: 23%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+right-sire {
+    display: flex;
+    flex-direction: column;
+}
+    </style>
+    <title>Comments with API</title>
+</head>
+<body>
+    <h1>Comments using API</h1>
+    <button onclick="loadData()">Load Comments</button>
+
+    <container id="container">
+         <div id="comments-container" class="row row-cols-lg-3 g-4">
+          
+    </container>
+
+    <script src="app.js"></script>
+</body>
+</html>
